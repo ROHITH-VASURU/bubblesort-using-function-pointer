@@ -9,11 +9,11 @@ int main(void)
 {
   int array[SIZE] = {7,5,9,15,2,25,8,1,17,12};
 
-  puts("Enter 1 for ascending oredre AND 2 for descending order");
+  puts("Enter 1 for ascending order AND 2 for descending order");
   int order;
   scanf("%d", &order);
 
-  puts("Array in original oredr is");
+  puts("Array in original order is");
   for(size_t i=0; i < SIZE; i++)
   {
     printf("%d  ", array[i]);
